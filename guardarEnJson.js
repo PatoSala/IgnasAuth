@@ -6,7 +6,7 @@ function register(nombre,mail,contraseña){
         username : nombre,
         email : mail,
         password : contraseña
-    }asdasdasd
+    }
     usersDb.push(objeto);
     let arrayJSON = JSON.stringify(usersDb);//convierte el array a cadena
     fs.writeFileSync('./usersDB.json',arrayJSON);//escribe la cadena en el archivo 
